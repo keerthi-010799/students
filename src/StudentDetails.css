@@ -1,0 +1,27 @@
+.container{
+    background-color: #fe3f72;
+    text-align: center;
+    margin: auto;
+}
+tr{
+position: relative;
+width: 500px;
+margin: 60px auto 0;
+padding:10px;
+box-sizing: border-box;
+    background: #ff3772;
+}
+tr td{
+    background-color: rgba(255, 255, 255, .1);
+    padding: 10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: .5s;
+}
+tr td:hover{
+    transform:scale(1.06);
+    background: #ff3772;
+}
+button{
+    background-color: #fe3f72;
+}
